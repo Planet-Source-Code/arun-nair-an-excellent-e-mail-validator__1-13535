@@ -1,0 +1,87 @@
+[Root]
+Most Recent Package=ArunUtils
+
+
+[Package|ArunUtils|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\VB Projects\mail validator\COM\Package (2)
+
+[Package|ArunUtils|Configure DAO ISAMs]
+Applicable=No
+
+[Package|ArunUtils|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|ArunUtils|Files Found]
+
+[Package|ArunUtils|Files Released]
+
+[Package|ArunUtils|Missing Dependency Information]
+
+[Package|ArunUtils|Out-of-Date Dependency Information]
+
+[Package|ArunUtils|Files Added]
+D:\VB Projects\mail validator\COM\ArunUtils.VBR=
+
+[Package|ArunUtils|Files Removed]
+
+[Package|ArunUtils|Files In Project]
+D:\VB Projects\mail validator\COM\ArunUtils.dll=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\asycfilt.dll=Yes
+C:\WINNT\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\VB Projects\mail validator\COM\ArunUtils.VBR=Yes
+D:\VB Projects\mail validator\COM\ArunUtils.TLB=Yes
+C:\WINNT\system32\AUTPRX32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\Common\Tools\Clireg\CLIREG32.EXE=Yes
+
+[Package|ArunUtils|Configure Registry Files]
+Applicable=No
+
+[Package|ArunUtils|Configure Remote Servers]
+Applicable=Yes
+D:\VB Projects\mail validator\COM\ArunUtils.VBR=,DCOM
+
+[Package|ArunUtils|Install Locations]
+D:\VB Projects\mail validator\COM\ArunUtils.dll=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\VB Projects\mail validator\COM\ArunUtils.VBR=$(WinSysPath)
+D:\VB Projects\mail validator\COM\ArunUtils.TLB=$(WinSysPath)
+C:\WINNT\system32\AUTPRX32.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\Common\Tools\Clireg\CLIREG32.EXE=$(WinSysPath)
+
+[Package|ArunUtils|Configure Shared Files]
+Applicable=Yes
+D:\VB Projects\mail validator\COM\ArunUtils.dll=Yes
+
+[Package|ArunUtils|Distribution]
+Type=single
+Size=
+Title=ArunUtils
+
+[Package|ArunUtils|Package]
+PackageFolder=D:\VB Projects\mail validator\COM\Package (2)
+ProjectFolder=D:\VB Projects\mail validator\COM
+ServerSideCab=
+File1=D:\VB Projects\mail validator\COM\Package (2)\setup.exe
+File2=D:\VB Projects\mail validator\COM\Package (2)\Setup.Lst
+File3=D:\VB Projects\mail validator\COM\Package (2)\ArunUtils.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
